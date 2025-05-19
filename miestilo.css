@@ -29,7 +29,7 @@ section {
 footer {
   background-color: #4caf50; /* Color de fondo del footer */
   color: #fff;
-  padding: 20px 0;
+  padding: 10px 0;
 }
 
 .footer-content {
@@ -60,4 +60,22 @@ nav ul li a {
 }
 nav ul li a:hover {
   background-color: #2f8247;
+}
+
+nav ul li a:hover {
+  background-color: #2f8247; /* Color de fondo al pasar el mouse */
+  color: #e0ffe0; /* Color del texto al pasar el mouse */
+}
+
+img {
+  display: block; /* Para eliminar el espacio adicional que algunos navegadores agregan a las img. */
+  margin: 0 auto; /* Centrar las imágenes horizontalmente */
+  max-width: 100%; /* Asegurar que las imágenes no excedan el ancho del contenedor */
+  border: 3px solid #69bd45; /* Contorno de 3px con un color verde (#69bd45) alrededor de la img.*/
+  border-radius: 10px; /* Borde redondeado de 10px para suavizar el contorno */
+}
+.imgSection {
+  width: 30%;
+  height: auto;
+  margin-bottom: 3%;
 }
